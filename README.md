@@ -1,6 +1,6 @@
 # CrackDetection
-|   Detector   | Loss | Accuracy | Precision | Recall | F1 Score| Precision-OTB50 | Deep Learning |  RealTime  |
-|:------------:|
+|   Detector   | Loss | Accuracy | Precision | Recall | F1 Score| Deep Learning |  RealTime  |
+|:------------:|:-----|:--------:|:---------:|:------:|:-------:|:-------------:|:----------:|
 |     ECO     |  **0.709**   |        0.93        | **0.694**  |    **0.910**     |  *0.643*  |     *0.874*     |       Y       |    N(6)    |
 |    MDNet    |   *0.708*    |      *0.948*       |  *0.678*   |     *0.909*      | **0.645** |    **0.890**    |       Y       |    N(1)   
 
