@@ -29,11 +29,11 @@
   "DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection."
   [[paper]()]
   [[code]()]
-  * **FCN:** Xincong Yang,Heng Li*, Yantao Yu, Xiaochun Luo & Ting Huang,<br />
+* **FCN:** Xincong Yang,Heng Li*, Yantao Yu, Xiaochun Luo & Ting Huang,<br />
   "Automatic Pixel-Level Crack Detection and Measurement Using Fully Convolutional Network"
   [[paper]()]
   [[code]()]
-  * **CrackNet:**  
+* **CrackNet:**  
   
   
   
