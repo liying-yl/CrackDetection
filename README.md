@@ -1,7 +1,7 @@
 # CrackDetection
-|   Detector   |    Loss    |    Accuracy    |    Precision    |    Recall    |    F1 Score   |   AIU   |   Deep Learning   |  RealTime  |
+|   Detector   |    Loss    |    Accuracy    |    Precision    |    Recall   |    F1 Score   |   AIU   |   Deep Learning   |  Time(s)  |
 |:------------:|:-----|:--------:|:---------:|:------:|:-------:|:-------------:|:----------:|:----------:|
-|     FPHBN    |      -      |        0.93        | **0.694**  |    **0.910**     |  *0.643*  |     0.560    |       Y       |    N(6)    |
+|     FPHBN    |      -      |       -      | -  |    -     |  -  |     0.489    |       Y       |    0.197    |
 |    MDNet    |   *0.708*    |      *0.948*       |  *0.678*   |     *0.909*      | **0.645** |    **0.890**    |       Y       |    N(1)   
 
 
