@@ -24,14 +24,36 @@ Time(s):
   [[paper](https://www.sciencedirect.com/science/article/pii/S0925231219300566)]
   [[code](https://github.com/yhlleo/DeepCrack/blob/master/dataset/DeepCrack.zip)]
   
-|    Method    |     G    |           C        |       I/U       |  Precision  |     Recall    |   F1 Score    |Time(s)|
+|    Method    |     G    |         C          |       I/U       |  Precision  |     Recall    |   F1 Score    |Time(s)|
 |:------------:|:--------:|-------------------:|:---------------:|:-----------:|:-------------:|:-------------:|:-----:|
 |  DeepCrack1  |   97.5   |        97.0        |       80.2      |    86.1     |       86.9    |      86.5     |   109 |   
 | DeepCrack-GF |   98.6   |        95.0        |       85.9      |    85.2     |       86.6    |      85.9     |   118 |
 |    SegNet    |   98.0   |        82.3        |       78.5      |    79.7     |       72.9    |      76.2     |   184 |   
 |      HED     |   95.8   |        87.7        |       70.0      |    59.4     |       69.1    |      63.9     |   56  |
 
-G:GlobalAccuracy   C:Class average accuracy   I/U: Mean intersection over union over all classes  GF:Guided filter
+G:GlobalAccuracy   
+C:Class average accuracy  
+I/U: Mean intersection over union over all classes 
+GF:Guided filter
+
+* **U-net:** Zhenqing Liua,⁎ , Yiwen Caoa, Yize Wanga,⁎ , Wei Wangb.<br />
+  "Computer vision-based concrete crack detection using U-net fully convolutional networks." 
+  [[paper](https://data.mendeley.com/datasets/c7cpnw32j6/1)]
+  [[code](https://data.mendeley.com/datasets/c7cpnw32j6/1)]
+  
+|    Method    |     Author    |    Precision  |     Recall    |   F1 Score    |
+|:------------:|:-------------:|--------------:|:-------------:|:-------------:|
+|     U-net    |    Present    |        90     |       91      |       90      |       
+|      FCN     |   Yang et al  |        82     |       79      |       80      |       
+  
+* **FCN:** Xincong Yang,Heng Li*, Yantao Yu, Xiaochun Luo & Ting Huang,<br />
+  "Automatic Pixel-Level Crack Detection and Measurement Using Fully Convolutional Network"
+  [[paper](https://onlinelibrary.wiley.com/doi/full/10.1111/mice.12412)]
+  [[code]()]
+
+
+
+
 
 |   Detector   |    Loss    |    Accuracy    |    Precision    |    Recall   |    F1 Score   |   AIU   |   Deep Learning   |  Time(s)  |
 |:------------:|:----------:|:--------------:|:---------------:|:-----------:|:-------------:|:-------:|:-----------------:|:---------:|
