@@ -42,7 +42,7 @@ GF:Guided filter
   [[code](https://data.mendeley.com/datasets/c7cpnw32j6/1)]
   
 |    Method    |     Author    |    Precision  |     Recall    |   F1 Score    |
-|:------------:|:-------------:|--------------:|:-------------:|:-------------:|
+|:------------:|:-------------:|:--------------:|:-------------:|:-------------:|
 |     U-net    |    Present    |        90     |       91      |       90      |       
 |      FCN     |   Yang et al  |        82     |       79      |       80      |       
   
