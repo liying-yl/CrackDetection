@@ -1,4 +1,16 @@
 # CrackDetection
+
+* **FPHBN:** Fan Yang*, Lei Zhang*, Sijia Yu, Danil Prokhorov, Xue Mei, and Haibin Ling.<br />
+  "Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection." IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS, UNDER REVIEW. 
+  [[paper](https://ieeexplore.ieee.org/abstract/document/8694955)]
+  [[code](https://github.com/fyangneil/pavement-crack-detection)]
+  
+|  Dataset  |    Crack500  |    GAPs384    |   CrackTree200    |    CFD   |    Aigle-RN & ESAR & LCMS   |
+|:---------:|:------------:|:-------------:|:-----------------:|:--------:|:---------------------------:|
+|     AIU   |    0.489     |     0.081     |        0.041      |   0.173  |             0.079           | 
+|  Time(s)  |     0.197    |     0.241     |        0.377      |   0.133  |             0.259           |    
+  
+  
 |   Detector   |    Loss    |    Accuracy    |    Precision    |    Recall   |    F1 Score   |   AIU   |   Deep Learning   |  Time(s)  |
 |:------------:|:----------:|:--------------:|:---------------:|:-----------:|:-------------:|:-------:|:-----------------:|:---------:|
 |     FPHBN    |      -     |       -        |        -        |    -        |       -       |  0.489  |       Y           |  0.197    |
@@ -9,10 +21,7 @@
 |  DeepCrack2  |      -     |       -        |      0.9315(AP) |      -      |       -       |    -    |       Y           |           |
 |      FCN     |      -     |       0.9796   |      0.8173     |      0.7897 |       0.7995  |    -    |       Y           |           | |  CrackNet    |      -     |       -        |      0.9013     |      0.8763 |       0.8886  |    -    |       Y           |           | |  CrackForest |      -     |       0.9796   |      0.8173     |      0.7897 |       0.7995  |    -    |       Y           |           | |  CrackTree   |      -     |       -        |      0.9013     |      0.8763 |       0.8886  |    -    |       Y           |           |             
 
-* **FPHBN:** Fan Yang*, Lei Zhang*, Sijia Yu, Danil Prokhorov, Xue Mei, and Haibin Ling.<br />
-  "Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection." IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS, UNDER REVIEW. 
-  [[paper](http://scholar.google.com/scholar?q=Feature+Pyramid+and+Hierarchical+Boosting+Network+for+Pavement+Crack+Detection&hl=zh-CN&as_sdt=0&as_vis=1&oi=scholart)]
-  [[code](https://github.com/fyangneil/pavement-crack-detection)]
+
 * **CNN&ipp:** Eftychios Protopapadakis1 & Athanasios Voulodimos2, Eftychios Protopapadakis1 & Athanasios Voulodimos2.<br />
   "Automatic crack detection for tunnel inspection using deep learning and heuristic image post-processing." 
   [[paper]()]
